@@ -1,0 +1,133 @@
+/* Eléments généraux */
+
+* {
+	font-family: Calibri, sans-serif;
+	color: #34495E;
+	}
+	
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 15px;
+	padding: 10px;
+	}
+	
+
+/* Header */
+
+header {
+	background-image: url('images/swirl_pattern.png');
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	}
+	
+
+#image {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	}
+	
+header #image img {
+	width: 200px;
+	height: 200px;
+	}
+	
+	
+#texte_header {
+	display: inline-block;
+	text-align: center;
+	width: 60%;
+	}
+	
+header h1 {
+	color: #F89406;
+	font-size: 3em;
+	font-weight: bold;
+	}
+	
+header p {
+	color: #663399;
+	font-size: 1.2em;
+	font-weight: bold;
+	}
+	
+
+
+/* Main */
+
+main {
+	background-image: url('images/worn_dots.png');
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	}
+	
+	
+#experience {
+	width: 30%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	text-align: center;
+	padding: 10px;
+	}
+	
+#objectifs {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding: 10px;
+	}
+	
+#parcours {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding: 10px;
+	}
+	
+ul li {
+	list-style-type:none;
+	}
+	
+
+
+/* Footer */
+
+footer {
+	background-image: url('images/dimension_@2X.png');
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	font-size: 0.8em;
+	font-style: italic;
+	}
+	
+footer h4 {
+	color: #F89406;
+	}
+	
+footer p, a {
+	color: #663399;
+	}
+	
+#map {
+	display:inline-block;
+    vertical-align:top;
+    box-sizing:border-box;
+	}	
+	
+#contact {
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: top;
+	text-align: left;
+	}
+	
+
+	
+	
